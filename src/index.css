@@ -30,10 +30,6 @@ ul.listingList {
   padding: 1px;
 }
 
-.categoryListingInfoTtext {
-  font-size: 12px;
-}
-
 .input,
 .passwordInput,
 .emailInput,
@@ -848,4 +844,10 @@ ul.listingList {
   margin-left: 1rem;
   font-size: 0.8rem;
   opacity: 0.75;
+}
+
+@media (width:500px) {
+  .categoryListingInfoTtext {
+    font-size: 12px;
+  }
 }
