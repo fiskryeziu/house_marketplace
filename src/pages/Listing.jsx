@@ -68,7 +68,7 @@ function Listing() {
       {shareLinkCopied && <p className="linkCopied">Link Copied</p>}
       <div className="listingDetails">
         <p className="listingName">
-          {listing.name} -$
+          {listing.name} $
           {listing.offer ? listing.discountedPrice : listing.regularPrice}
         </p>
         <p className="listingLocation">{listing.location}</p>
