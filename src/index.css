@@ -26,6 +26,14 @@ button {
   border: none;
 }
 
+ul.listingList {
+  padding: 1px;
+}
+
+.categoryListingInfoTtext {
+  font-size: 12px;
+}
+
 .input,
 .passwordInput,
 .emailInput,
@@ -95,7 +103,7 @@ button {
 .listingDetails,
 .category,
 .explore {
-  margin: 1rem;
+  margin: 1rem 1rem 10rem;
 }
 
 @media (min-width: 1024px) {
@@ -104,8 +112,7 @@ button {
   .offers,
   .profile,
   .listingDetails,
-  .category,
-  .explore {
+  .category {
     margin: 3rem;
   }
 }
