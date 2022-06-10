@@ -846,7 +846,7 @@ ul.listingList {
   opacity: 0.75;
 }
 
-@media (min-width:500px) {
+@media (max-width:500px) {
   .categoryListingInfoTtext {
     font-size: 12px;
   }
