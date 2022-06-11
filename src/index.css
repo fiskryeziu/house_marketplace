@@ -851,3 +851,11 @@ ul.listingList {
     font-size: 12px;
   }
 }
+
+@media (max-width:600px) {
+  .formLatLng {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
